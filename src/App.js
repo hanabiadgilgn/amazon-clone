@@ -51,6 +51,7 @@ function App() {
             <Login />
           </Route>
           <Route path="/payment">
+            <Header />
             <Elements stripe={promise}>
               <Payment />
             </Elements>
@@ -62,6 +63,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer/>
           </Route>
         </Switch>
       </div>

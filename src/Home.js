@@ -82,6 +82,16 @@ function Home() {
         <div className="home__row">
             <Product
             id="90829332"
+            title="Signature Design by Ashley - Alenya Microfiber Upholstery Sofa w/ 2 Throw Pillows, Charcoal"
+            price={486.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/S/abs-image-upload-na/4/AmazonStores/ATVPDKIKX0DER/e12227e3e5b0a471f9be3cf9a005fd15.w1482.h989._CR0%2C397%2C1482%2C296_SX1482_.jpg" 
+            />
+
+        </div>
+        <div className="home__row">
+            <Product
+            id="90829332"
             title="Quick Sit to Stand Desktop Gas Spring Riser (Max Height:19.3inch), 33 inch Height Adjustable Standing Desk Converter for Dual Computer Monitors & Laptop Workstation, Perfect Home Office by HUANUO"
             price={109.98}
             rating={4}
